@@ -1,0 +1,21 @@
+.footer__info{
+    color: var(--color-oscuro);
+    width: 25%;
+}
+
+.footer__info ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer__info--item{
+    margin: .5rem;
+     font-size: 1rem;
+     display: block;
+     opacity: .5;
+}
+
+.footer__info--item:hover{
+    opacity: 1;
+}

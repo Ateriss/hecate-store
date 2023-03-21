@@ -1,0 +1,22 @@
+.footer__desarrollado{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    align-content: center;
+}
+
+.footer__desarrollado a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-oscuro);
+}
+
+.footer__desarrollado--txt{
+    display: block;
+    margin: .25rem;
+    width: 350px;
+    text-align: center;
+    font-size: 1rem;
+}
