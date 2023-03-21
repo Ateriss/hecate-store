@@ -1,0 +1,58 @@
+
+
+.header__user--img{
+    width: 30px;
+    height: 30px;
+    background-image: var(--user);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.header__user ul{
+    position: absolute;
+    background-color: var(--color-claro);
+    height: 105px;
+    width: 220px;
+    display: block;
+    transform: translateY(-200px);
+    transition: transform 0.4s ease-in-out;
+    margin: 0 auto;
+
+}
+
+.header__user:hover ul{
+    transform: translateY(15px);
+    
+}
+
+
+.header__user--user{
+    font-size: 1.25rem;
+    display: block;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    color: var(--color-oscuro);
+    transition: all 0.5s;
+}
+
+.header__user--user:hover{
+    
+    background-color: var(--color-medio);
+    
+    letter-spacing: 3px;
+}
+
+.header__user--user:active{
+    background-color: var(--color-mediooscuro);
+    color: var(--color-claro);
+}
+
+.header__search input:not(:placeholder-shown){
+    width: 90%;
+}
+
+.header__search.with-text{
+    width: 400px;
+}
+
+
