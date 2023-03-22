@@ -1,5 +1,6 @@
 :root{
     --color-claro : #ffe29a;
+    --color-medioclaro : #ffecbb;
     --color-semiclaro : #ffc27f;
     --color-medio : #f88863;
     --color-mediooscuro : #ac4147;
@@ -16,6 +17,7 @@
     --tw: url(/assets/icons/gorjeo-o.png);
     --tiktok: url(/assets/icons/tik-tok-o.png);
     --instagram: url(/assets/icons/instagram-o.png);
+    --google: url(/assets/icons/google-o.png);
 
 }
 
