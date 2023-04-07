@@ -10,8 +10,6 @@ async function getCategory(){
         men.innerHTML=`${response.data[2]}`;
         jewelery.innerHTML=`${response.data[1]}`;
 
-
-
     } catch (error) {
         console.log(error);
       }

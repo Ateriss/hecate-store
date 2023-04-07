@@ -1,0 +1,183 @@
+.contacto{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px );
+    padding-top: 70px;
+    flex-direction: column;
+    width: 1440px;
+    margin:auto;
+}
+
+.contacto__titulo{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--color-mediooscuro);
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contacto__caja{
+    display: flex;
+    margin: 1rem;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+   height: 70%;
+}
+
+.contacto__img{
+    width: 25%;
+    height: 100%;
+    background-image: url(/assets/pexels-ksenia-chernaya-3965545.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 2rem;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.contacto__box{
+    width: calc(70% - 50px);
+    background: var(--color-medioclaro);
+    padding: 50px;
+    -webkit-clip-path: polygon(6% 0, 80% 0%, 100% 5%, 100% 80%, 95% 100%, 20% 100%, 0 95%, 0% 20%);
+    clip-path: polygon(6% 0, 80% 0%, 100% 5%, 100% 80%, 95% 100%, 20% 100%, 0 95%, 0% 20%);
+}
+
+.contacto__info{
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contacto__horarios{
+    margin-bottom: 1rem;
+    width: calc(50% - 2rem);
+    color: var(--color-mediooscuro);
+}
+
+.contacto__horarios h1{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.contacto__formulario{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contacto__form{
+    margin-bottom: 1rem;
+    width: calc(100% - 2rem);
+    color: var(--color-mediooscuro);
+}
+
+.contacto__form h1{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+
+.contacto__intro{
+    display: flex;
+    width: 50%;
+}
+
+.contacto__intro--texto{
+    background: var(--color-muyclaro);
+    border: none;
+    outline: none;
+     border-radius: 10px;
+     margin: .5rem;
+     padding: 1rem;
+     width: calc(100% - 3rem);
+     font-size: 1rem;
+     color: var(--color-mediooscuro);
+}
+
+.contacto__intro--texto::placeholder{
+    color: var(--color-medio);
+}
+
+.contacto__intro--texto:hover, .contacto__intro--texto:focus{
+    border-bottom: 2px solid var(--color-mediooscuro);
+}
+
+
+.contacto__file{
+    margin: .5rem 0 1rem .5rem;
+    padding: 1rem;
+    width: calc(50% - 3rem);
+    display: flex;
+    flex-direction: column;
+    height: calc(75% - 1rem);
+    background: var(--color-muyclaro);
+    position: relative;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.file__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-medioclaro);
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--color-mediooscuro);
+
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.file__img{
+    width: 40px;
+    height: 40px;
+    background-image:  url(/assets/icons/nube-o.png);
+    background-size: cover;
+}
+
+
+.file__contador{
+    color: var(--color-mediooscuro);
+    margin: .5rem;
+}
+
+
+
+.contacto__btn--box {
+    position: relative;
+    clip-path: polygon(0 0, 80% 0%, 100% 10%, 100% 100%, 80% 100%, 20% 100%, 0 88%, 0% 20%);
+    border: 1px solid var(--color-medio);
+    background-color: var(--color-medio);
+    color: var(--color-muyclaro);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 0 1.5rem;
+    padding: 12px 80px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .contacto__btn--box:hover {
+    letter-spacing: 3px;
+  }
+  
+  .contacto__btn--box:active {
+    transform: scale(0.95);
+  }
+  
+  .contacto__btn--box:focus {
+    outline: none;
+  }
+  

@@ -1,0 +1,41 @@
+.footer__contacto{
+    width: 25%;
+}
+
+.footer__contacto--item span{
+    color: var(--color-oscuro);
+    margin: 1rem;
+}
+
+.footer__contacto--item ul{
+    display: flex;
+}
+
+.footer__contacto--rrss{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.footer__contacto--rrss:hover{
+    animation: temblor 0.8s ease-in;
+}
+
+.fb{
+    background-image: var(--fb);
+}
+
+.tw{
+    background-image: var(--tw);
+}
+
+.tiktok{
+    background-image: var(--tiktok);
+}
+
+.instagram{
+    background-image: var(--instagram);
+}

@@ -1,0 +1,68 @@
+.banner{
+    display: block;
+}
+/*
+@keyframes carrusel {
+    0% {transform: translateX(0%);}
+    10% {transform: translateX(0%);}
+    25% {transform: translateX(-33.33%);}
+    35% {transform: translateX(-33.33%);}
+    50% {transform: translateX(-66.66%);}
+    60% {transform: translateX(-66.66%);}
+    75% {transform: translateX(-33.33%);}
+    85% {transform: translateX(-33.33%);}
+    100% {transform: translateX(-0%);}
+}
+
+*/
+
+
+.banner__carrusel{
+    width: 300%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all .5s ease;
+    animation-name: carrusel;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.01,.82,.06,.98);
+}
+
+
+
+.banner__puntos{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 320px;
+
+}
+
+.banner__punto{
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--color-claro);
+    margin: 1rem;
+    border-radius: 100%;
+    border: 2px solid var(--color-mediooscuro);
+}
+
+.banner__punto:hover{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.banner__punto.activo{
+    background-color: var(--color-mediooscuro);
+    border-color: var(--color-claro);
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+

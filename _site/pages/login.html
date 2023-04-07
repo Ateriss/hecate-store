@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/container/container.css">
+    <link rel="stylesheet" href="/css/header/header.css">
+    <link rel="stylesheet" href="/css/header/header__search.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header/header__user.css">
+    <link rel="stylesheet" href="/css/banner/banner.css">
+    <link rel="stylesheet" href="/css/banner/banner__descripcion.css">
+    <link rel="stylesheet" href="/css/banner/banner__img.css">
+    <link rel="stylesheet" href="/css/banner/banner__promo.css">
+    <link rel="stylesheet" href="/css/productos/producto__box.css">
+    <link rel="stylesheet" href="/css/productos/producto__cabeza.css">
+    <link rel="stylesheet" href="/css/productos/producto__cat.css">
+    <link rel="stylesheet" href="/css/productos/producto__unico.css">
+    <link rel="stylesheet" href="/css/productos/productos.css">
+    <link rel="stylesheet" href="/css/footer/footer.css">
+    <link rel="stylesheet" href="/css/footer/footer__contacto.css">
+    <link rel="stylesheet" href="/css/footer/footer__info.css">
+    <link rel="stylesheet" href="/css/footer/footer__logo.css">
+    <link rel="stylesheet" href="/css/footer/footer__desarrollado.css">
+    <link rel="stylesheet" href="/css/loginPage/loginPage.css">
+
+
+    <title>HÉCATE</title>
+    <link rel="shortcut icon" href="/assets/icons/1-o.png" />
+</head>
+  <body>
+    <header class="container"> 
+        
+      <section class="header">
+          <div class="header__box">
+          <div class="header__logo">
+              <div  class="header__logo--img"></div>
+              <h1 class="header__logo--nombre"> hécate</h1>
+          </div>
+          <div class="header__nav">
+              <ul>
+                  <li><a href="/index.html" class="header__nav--item">Home</a></li>
+                  <li><a href="/pages/productos.html" class="header__nav--item">Products</a></li>
+                  <li><a href="/pages/contacto.html" class="header__nav--item">Contact</a></li>
+              </ul>
+          </div>
+          <div class="header__search">
+              <button class="header__search--img"></button>
+              <input type="search" name="search" id="search" placeholder="Search" required  minlength="4">
+              
+          </div>
+          <div class="header__icons">
+              <div class="header__user"> 
+                  <div class="header__user--img"></div>
+                  <ul>
+                      <li><a class="header__user--user login" href="/pages/login.html">Login <br>or<br> Sign In</a></li>
+                  </ul>
+              </div>
+              <div class="header__carrito">
+                  <a href="#" ><div class="header__carrito--img"></div></a>
+              </div>
+          </div>
+      </div>
+      </section>
+  
+  </header>
+    <main>
+        <section class="inicio-usuario">
+        <div class="sesion" id="container">
+      <div class="form-container register-container">
+        <form action="#">
+          <h1 class="h1">Regístrate</h1>
+          <input class="input" type="text" placeholder="Nombre completo" />
+          <input class="input" type="email" placeholder="Email" />
+          <input class="input" type="password" placeholder="Contraseña" />
+          <button class="button">Continuar</button>
+          <span class="span">O regístrate con algunas de tus cuentas</span>
+          <div class="social-container">
+            <a href="#" class="a social"><i class="Ini Ini-facebook-fill fb" ></i></a>
+            <a href="#" class="a social"> <i class="Ini Ini-google google"></i></a>
+          </div>
+        </form>
+      </div>
+      <div class="form-container login-container">
+        <form action="#">
+          <h1 class="h1">Inicia sesión</h1>
+          <input class="input" type="email" placeholder="Email" />
+          <input class="input" type="password" placeholder="Contraseña" />
+          <div class="content">
+            <div class="checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <label>Recuerdame</label>
+            </div>
+            <div class="pass-link">
+              <a class="a" href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+          </div>
+          <button class="button">Continuar</button>
+          <span class="span">O inicia sesión con algunas de tus cuentas</span>
+          <div class="social-container">
+            <a href="#" class="a social"><i class="Ini Ini-facebook-fill fb"></i></a>
+            <a href="#" class="a social"><i class="Ini Ini-google google" ></i></a>
+          </div>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1 class="h1 title">
+              ¡Hola!
+            </h1>
+            <p class="p">Si ya tienes una cuenta, inicia sesión para una mejor experiencia</p>
+            <button class="button ghost" id="login">
+              Iniciar sesión <i class="Ini Ini-arrow-left login"></i>
+            </button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1 class="h1 title">
+              Facilita tus compras
+            </h1>
+            <p class="p">
+              ¿Aún no tienes una cuenta? Crea una y aprovecha todas nuestras ofertas.
+            </p>
+            <button class="button ghost" id="register">
+              Registrase
+              <i class="Ini Ini-arrow-right register"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+        </section>
+    </main>
+
+    
+
+    <footer>
+
+      <section class="footer">
+        <div class="footer__box">
+        
+        <div class="footer__info">
+            <ul>
+                <li><a href="" class="footer__info--item">About us</a></li>
+                <li><a href="" class="footer__info--item">Privacy policies</a></li>
+                <li><a href="" class="footer__info--item">loyalty program</a></li>
+                <li><a href="" class="footer__info--item">Our shops</a></li>
+                <li><a href="" class="footer__info--item">I want to be a franchisee</a></li>
+            </ul>
+        </div>
+        <div class="footer__logo"><img src="/assets/icons/1-o.png" alt="">
+            <div class="footer__desarrollado"><a href="" >
+                <h1 class="footer__desarrollado--txt">Developed by</h1>
+                <p class="footer__desarrollado--txt">Alexandra Linares Viña</p>
+                <p class="footer__desarrollado--txt">Copyright &copy; 2023 Ateriss</p>
+            </a></div>
+        </div>
+        <div class="footer__contacto">
+            <ul>
+                <li class="footer__contacto--item">
+                    <span>
+                        Follow us in
+                    </span>
+                    <ul>
+                        <li class="footer__contacto--rrss fb"></li>
+                        <li class="footer__contacto--rrss tw"></li>
+                        <li class="footer__contacto--rrss tiktok"></li>
+                        <li class="footer__contacto--rrss instagram"></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    </section>
+
+    </footer>
+
+    <script src="/JS/loginForm.js"></script>
+  </body>
+</html>
