@@ -1,4 +1,10 @@
+
+title: Hecate Store
+author:
+  name: Alexandra Linares
+url: https://Ateriss.github.io/hecate-store/
 plugins:
   - jekyll-relative-links
-
-  remote_theme: Ateriss/hecate-store
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
