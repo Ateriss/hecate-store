@@ -2,7 +2,7 @@
 
 .banner__descripcion{
     position: absolute;
-    top: 300px;
+    top: 200px;
     width: 1440px;
     display: flex;
     flex-direction: column;
