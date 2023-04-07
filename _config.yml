@@ -1,2 +1,4 @@
 plugins:
   - jekyll-relative-links
+
+  remote_theme: Ateriss/hecate-store
