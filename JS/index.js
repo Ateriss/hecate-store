@@ -34,6 +34,7 @@ async function getProducts() {
                   <p class="producto__unico--precio">$ ${price}</p>
                   <button class="producto__unico--btnCompra">+</button>
                 </div>
+                <span class="producto__barra"><p>&#10095;<p></span>
               </a>
               <button class="producto__unico--btnfav">&#x2764;</button>
             </div>
