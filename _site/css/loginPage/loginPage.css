@@ -59,13 +59,29 @@
   height: 50px;
   align-items: center;
   justify-content: space-around;
+  font-size: .8rem;
 }
 
-.content.checkbox {
+.checkbox {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  align-items: center;
 }
+
+
+.pass-link{
+  color: var(--color-mediooscuro);
+  opacity: .8;
+  transition: all .5s ease-in-out;
+}
+
+.pass-link:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+
 
 .content input {
   accent-color: var(--color-mediooscuro);
@@ -74,7 +90,7 @@
 }
 
 .content label {
-  font-size: .9rem;
+
   user-select: none;
   padding-left: 5px;
   color: var(--color-mediooscuro);
@@ -146,6 +162,33 @@ form {
   height: calc(100% - 100px);
   width: calc(100% - 100px);
   text-align: center;
+  position: relative;
+}
+
+.errorSignin{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin:10px 50px ;
+  color: red;
+  width: calc(100% - 100px);
+  height: 50px;
+  text-align: left;
+  text-justify: distribute;
+  word-wrap: break-word;
+}
+
+.errorLogin{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  margin:10px 50px ;
+  color: red;
+  width: calc(100% - 100px);
+  height: 50px;
+  text-align: left;
+  text-justify: distribute;
+  word-wrap: break-word;
 }
 
 .input {
@@ -157,6 +200,7 @@ form {
   width: calc(100% - 30px);
   color: var(--color-mediooscuro);
   outline: none;
+
 }
 
 .input::placeholder{
@@ -179,6 +223,7 @@ form {
   top: 0;
   height: 100%;
   transition: all 0.6s ease-in-out;
+  z-index: 1;
 }
 
 .login-container {

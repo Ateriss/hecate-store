@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -85,26 +86,25 @@
   </header>
     <main class="container">
       <section class="contacto" id="contacto">
-        <h2 class="contacto__titulo">nos encantaría escucharte</h2>
+        <h2 class="contacto__titulo">we love to hear from you</h2>
         <div class="contacto__caja">
           <div class="contacto__box">
             <div class="contacto__info">
               <div class="contacto__horarios">
-                <h1>Horario de atención</h1>
+                <h1>Call center</h1>
                 <p>
-                  Llámanos al (01) 555-5555 de lunes a domingo de 9:00 a 21:00
-                  horas.
+                  Call us at (01) 555-5555 from Monday to Sunday from 9:00 a.m. to 9:00 p.m.
                 </p>
               </div>
               <div class="contacto__horarios">
-                <h1>Horario de atención en nuestras tiendas físicas</h1>
-                <p>Encuentranos de lunes a domingo de 9:00 a 21:00 horas.</p>
+                <h1>Hours in our stores</h1>
+                <p>Find us from Monday to Sunday from 9:00 a.m. to 9:00 p.m..</p>
               </div>
             </div>
 
             <div class="contacto__form">
-              <h1>¿Deseas que te contactemos?</h1>
-              <p>¡Claro! Por favor llena el siguiente formulario:</p>
+              <h1>Do you want us to contact you?</h1>
+              <p>Sure! Please tell us:</p>
             </div>
             <form class="contacto__formulario scroll__animated" id="formSubmit">
               <div class="contacto__intro">
@@ -114,7 +114,7 @@
                   class="contacto__intro--texto"
                   required
                   name="name"
-                  placeholder="Nombre Completo"
+                  placeholder="Full Name"
                 />
 
                 <span class="contacto__intro--error valueMissing"></span>
@@ -139,7 +139,7 @@
                   class="contacto__intro--texto"
                   name="subject"
                   required
-                  placeholder="Asunto"
+                  placeholder="Subject"
                 />
 
                 <span class="contacto__intro--error"></span>
@@ -152,7 +152,7 @@
                   rows="5"
                   class="contacto__intro--texto msj"
                   required
-                  placeholder="Mensaje"
+                  placeholder="Message"
                 ></textarea>
 
                 <span class="contacto__intro--error"></span>
@@ -165,16 +165,16 @@
                   multiple
                 />
                 <label for="file" class="file__box">
-                  <span>¿tienes alguna foto que mostrarnos?</span>
+                  <span>Do you have any photos to show us?</span>
                   <div class="file__img"></div>
                   <span>Max 5 Mb</span>
                 </label>
-                <div class="file__contador">No se ha subido ningún archivo</div>
+                <div class="file__contador">No files have been uploaded</div>
                 <ul id="file__list"></ul>
               </div>
               <div class="contacto__btn">
-                <button class="contacto__btn--box" type="button">
-                  <span>Enviar</span>
+                <button class="contacto__btn--box" type="submit">
+                  <span>Submit</span>
                 </button>
               </div>
             </form>
@@ -223,6 +223,7 @@
     </section>
     </footer>
 
+    <script src="/JS/contact.js"></script>
     <script src="/JS/buscardor.js"></script>
   </body>
 </html>
