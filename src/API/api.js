@@ -44,6 +44,27 @@ export const categoryImages = {
     'jewelery': 'https://images.pexels.com/photos/8100365/pexels-photo-8100365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 }
 
+export const promoImages = [
+    {
+        id: 1,
+        title: 'Clearance Winter',
+        description: 'Take advantage of our 2x1 in winter products',
+        img: 'https://images.pexels.com/photos/7585785/pexels-photo-7585785.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    },
+    {
+        id: 2,
+        title: 'New collection',
+        description: 'Exclusive models for you and your friends',
+        img: 'https://images.pexels.com/photos/974964/pexels-photo-974964.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    },
+    {
+        id: 3,
+        title: 'Promotional May',
+        description: 'Selected products with 33% discount',
+        img: 'https://images.pexels.com/photos/3965548/pexels-photo-3965548.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    },
+]
+
 export const productRandom = ()=>{return Math.random() - .5;}
 
 

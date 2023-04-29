@@ -16,10 +16,9 @@ function Categories(){
     },[])
     return(
         <section className='w-screen bg-muyclaro relative z-0'>
-        <div className="categorias">
+        <div className="categorias flex flex-wrap ">
                 {loading? <Loading/>: categories.map((cat)=>{
                     const image = categoryImages[cat];
-                    console.log(image)
                     return <CatCard src={image} key={cat} title={cat} />
                 })}; 
         </div>
