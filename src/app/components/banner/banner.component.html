@@ -1,0 +1,15 @@
+<section class=" ">
+  <div class="banner flex ">
+    <div *ngFor="let promo of data.promoImages" class="relative h-screen w-screen promo">
+      <img
+        class="h-full  w-full object-cover"
+        src="{{ promo.img }}"
+        alt="{{ promo.title }}"
+      />
+      <div class="absolute z-10 bottom-2 p-3 text-muyclaro promo__info">
+        <h2 class="font-bold text-3xl promo__title">{{ promo.title }}</h2>
+        <p class="font-semibold promo__description">{{ promo.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>

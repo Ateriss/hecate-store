@@ -1,0 +1,51 @@
+<header class="container"> 
+    <section class="header"> 
+        <div class="header__box flex flex-col pl-4 pt-4 h-full   justify-between">
+            <i class="bi bi-list absolute bg-claro  p-2 rounded-md position"></i>
+            <div class="header__nav">
+                <ul>
+                    <li class="flex items-center">
+                        <img class="w-1/5" src="../../../assets/2-o.png" alt="logo">
+                        <h1 class="hidden uppercase ml-3 font-semibold text-l">hecat's store</h1>
+                    </li>
+                    <li class="mt-4">
+                        <a href="/home" class="header__nav--item ">
+                            <span class=" transition-all hover:tracking-widest"  >Home</span>
+                        </a>
+                    </li>
+                    <li class="mt-2">
+                        <span  
+                        class=" transition-all hover:tracking-widest"
+                        (click)="toggleMenu()">Products</span>
+                        <ul  class="ml-4" [ngClass]="{ 'transition-all hidden': !visible }" >
+                            <li class="mt-2"><a class=" transition-all hover:tracking-widest" href="#">Women Clothes</a></li>
+                            <li class="mt-2"><a class=" transition-all hover:tracking-widest" href="#">Men Clothes</a></li>
+                            <li class="mt-2"><a class=" transition-all hover:tracking-widest" href="#">Jewelery</a></li>
+                            <li class="mt-2"><a class=" transition-all hover:tracking-widest" href="#">Electronics</a></li>
+                        </ul>
+                    </li>
+                    <li class="mt-2">
+                        <a href="/home" class="header__nav--item ">
+                            <span class=" transition-all hover:tracking-widest">Contact us</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__search absolute inset-0 hidden">
+                <button class="header__search--img"></button>
+                <input type="search" name="search" id="search" placeholder="Search" required  minlength="4">
+                
+            </div>
+            <div class="header__icons">
+                <div class="flex"> 
+                    <i class="bi bi-person-fill text-mediooscuro"  ></i>
+                    
+                <a class="header__user--user mb-4 ml-3 transition-all hover:tracking-widest" href="/login">Login / Sign In</a>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</header>

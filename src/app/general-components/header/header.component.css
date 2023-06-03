@@ -1,0 +1,32 @@
+.header{
+    position: fixed;
+    width: 180px;
+    height: 100vh;
+    background-color: var(--color-claro);
+    color: var(--color-mediooscuro);
+    transition: all .5s ease-in-out;
+    left: -180px;
+    z-index: 555;
+}
+
+.header:hover, header:active{
+    left: 0;
+}
+
+.position{
+    right: -1.75rem;
+    top: 0
+}
+
+.products{
+    transition: all .5s ease-in-out;
+}
+
+.productsList{
+    margin: 2rem;
+}
+
+.products:hover .productsList{
+    margin: 0;
+}
+
